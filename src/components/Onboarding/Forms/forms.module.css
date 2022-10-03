@@ -1,0 +1,43 @@
+.container {
+  padding-top: 10%;
+  width: 100%;
+  background-color: red;
+}
+
+.commonHeading {
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: 600 !important;
+  letter-spacing: -1px !important;
+}
+.commonSubheading {
+  color: grey;
+  text-align: center;
+}
+
+.card {
+  width: 180px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.cardActive {
+  width: 180px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  border: 1px solid #664de5;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.congratulationsIcon {
+  height: 50px;
+  width: 50px;
+  background-color: #664de5;
+  margin: auto;
+  border-radius: 100%;
+  color: white;
+}
